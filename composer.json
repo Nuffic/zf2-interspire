@@ -1,0 +1,13 @@
+{
+  "name": "nuffic/zf2-interspire",
+  "description": "Interspire sender for ZF2",
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-0": {"Zf2Interspire": "src/"},
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
